@@ -79,7 +79,8 @@ public class Test {
 
         int[] results = new int[6];
         Arrays.fill(results, 100);
-        System.out.println(Arrays.toString(results));
-
+        // System.out.println(Arrays.toString(results));
+        int[] copyItems = Arrays.copyOf(results, results.length);
+        System.out.println(Arrays.toString(copyItems));
     }
 }
