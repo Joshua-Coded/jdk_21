@@ -63,8 +63,18 @@ public class Test {
         // }
 
         // using the arrays class in java
-        int[] results = { 23, 24, 45, 23, 45 };
-        String arraysAsString = Arrays.toString(results);
-        System.out.println("Arrays.toString " + arraysAsString);
+        int[] results = { 23, 24, 5, 2, 45 };
+        // String arraysAsString = Arrays.toString(results);
+        // System.out.println("Arrays.toString " + arraysAsString);
+
+        // System.err.println("Sorted arrays");
+
+        // Arrays.sort(results);
+        // System.out.println(Arrays.toString(results));
+
+        System.out.println("Binary searching the arrays");
+        int target = 45;
+        int index = Arrays.binarySearch(results, target);
+        System.out.println("Searching " + target + " found at index " + index);
     }
 }
