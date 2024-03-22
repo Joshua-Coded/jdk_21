@@ -63,7 +63,7 @@ public class Test {
         // }
 
         // using the arrays class in java
-        int[] results = { 23, 24, 5, 2, 45 };
+        // int[] results = { 23, 24, 5, 2, 45 };
         // String arraysAsString = Arrays.toString(results);
         // System.out.println("Arrays.toString " + arraysAsString);
 
@@ -72,9 +72,14 @@ public class Test {
         // Arrays.sort(results);
         // System.out.println(Arrays.toString(results));
 
-        System.out.println("Binary searching the arrays");
-        int target = 45;
-        int index = Arrays.binarySearch(results, target);
-        System.out.println("Searching " + target + " found at index " + index);
+        // System.out.println("Binary searching the arrays");
+        // int target = 45;
+        // int index = Arrays.binarySearch(results, target);
+        // System.out.println("Searching " + target + " found at index " + index);
+
+        int[] results = new int[6];
+        Arrays.fill(results, 100);
+        System.out.println(Arrays.toString(results));
+
     }
 }
